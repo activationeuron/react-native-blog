@@ -11,7 +11,7 @@ const blogReducer = (state, action) => {
         if(blogPost.id===action.payload.id){
           return action.payload
         }else{
-          return blogPost
+          return blogPost;
         }
       })
       default:
